@@ -1,0 +1,610 @@
+---
+title: "Hypothesis Testing Worksheet"
+author: "Morgan Holland"
+date: "6/3/2020"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)
+```
+
+**Instructions**: Test the following hypotheses about the population mean. I strongly recommend you draw a picture for each one to be sure you understand where the test statistic, critical value, $\alpha$ level, and p-value lie on the standard normal distribution.
+
+```{r, include=FALSE}
+source('xbarscript.R')
+set.seed(1234)
+```
+
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`
+    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`
+    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`    
+```{r}
+t <- testgen(sample(1:10000,1))
+mu <- t$mu
+n <- t$n
+xbar <- t$xbar
+s <- t$s
+testtxt <- t$testtxt
+result <- t$result
+alpha <- t$alpha
+```
+
+1. Suppose you have a sample of $n = `r n`$ observations of a variable $X$. You calculate $\overline X = `r xbar`$ and $s = `r s`$. Test the hypothesis that $\mu `r testtxt` `r mu`$ at $\alpha = `r alpha`$
+
+    SOLUTION: `r result`
